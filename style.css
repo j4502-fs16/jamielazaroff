@@ -63,6 +63,9 @@ p {
   border-top: 3px solid #a94dff;
 }
 
+#links a:hover, a:active {
+  background-color: #e6e6fa;
+}
 img {
   border-style: none;
 }
