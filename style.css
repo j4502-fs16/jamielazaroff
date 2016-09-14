@@ -7,6 +7,7 @@
 h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2em;
+  color: #ffffff;
 }
 h2 {
   font-family: Georgia, "Times New Roman", serif;
@@ -18,4 +19,5 @@ p {
 }
 #bodycopy{
   font-family: "century gothic", helvetica, sans-serif;
+  margin: 20, 20, 20, 20;
 }
