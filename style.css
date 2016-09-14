@@ -1,10 +1,13 @@
 body{
-  background-color: #d1d1e0}
+  background-color: #d1d1e0
+}
+
 #container {
   width: 95%;
   background-color: #ce99ff;
   margin:0 auto;
   padding-top: 5px;
+  margin-bottom: 10%;
   text-align: center;
 }
 
@@ -62,4 +65,12 @@ p {
 
 img {
   border-style: none;
+}
+
+a:link {
+  color: #4f0099;
+}
+
+link{
+  color: #4f0099;
 }
