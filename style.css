@@ -65,6 +65,7 @@ p {
 
 #links a:hover, a:active {
   background-color: #e6e6fa;
+  font-size: .9em;
 }
 img {
   border-style: none;
