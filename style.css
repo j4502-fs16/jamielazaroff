@@ -154,7 +154,7 @@ a:link {
 
 @media (min-width:800px){
   .nav{
-    flex-flow:row-wrap;
+    flex-flow:row;
     justify-content: flex-start;
   }
   .aside{
@@ -199,7 +199,7 @@ a:link {
 
     .main{
       display:flex;
-      flex-flow: row-wrap;
+      flex-flow: row;
     }
 
     .wrapper{
