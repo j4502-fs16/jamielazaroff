@@ -101,6 +101,7 @@ a:link {
 .wrapper{
   display: flex;
   flex-flow: row wrap;
+  max-width:1200px;
   /*text-align:center;*/
 }
 
@@ -126,6 +127,7 @@ a:link {
     }
   .main{
       flex:3 0px;
+      align-content: center;
     }
 
     .aside-1{
