@@ -7,7 +7,7 @@ a {
 }
 
 #container {
-  width: 95%;
+  width: 90%;
   background-color: #f0e6e7;
   margin:0 auto;
   padding-top: 5px;
@@ -104,10 +104,10 @@ a:link {
   /*text-align:center;*/
 }
 
-@media (min-width:800px){
+@media (min-width:600px){
   .nav{
     flex-flow:row;
-    justify-content: flex-end;
+    justify-content: center;
   }
   .aside{
     background-color:#FF7682;
@@ -120,7 +120,7 @@ a:link {
   padding: 2px;
 }
 
-@media (min-width:800px){
+@media (min-width:600px){
     .aside{
       flex:1 auto;
     }
@@ -147,5 +147,56 @@ a:link {
     .main{
       display:flex;
       flex-flow: row;
+    }
+}
+
+@media (min-width:800px){
+  .nav{
+    flex-flow:row-wrap;
+    justify-content: flex-start;
+  }
+  .aside{
+    background-color:#FF7682;
+    padding: 2px;
+  }
+}
+
+.aside{
+  background-color:#FF7682;
+  padding: 2px;
+}
+
+@media (min-width:800px){
+    .aside{
+      flex:1 auto;
+      background-color: #ff7682;
+      flex-flow: column;
+    }
+  .main{
+      flex:3 0px;
+      background-color: #f0e6e7;
+      flex-flow: column;
+    }
+
+    .aside-1{
+      order: 2;
+      display: none;
+    }
+
+    .main{
+      order: 1;
+    }
+
+    .aside-2{
+      order:3;
+    }
+
+    #footer{
+      order: 4;
+    }
+
+    .main{
+      display:flex;
+      flex-flow: row-wrap;
     }
 }
