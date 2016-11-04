@@ -22,6 +22,7 @@ h1 {
   font-family:'Slabo 27px', serif;
   font-size: 2em;
   color: black;
+  justify-content: center;
 }
 
 h2 {
@@ -101,7 +102,6 @@ a:link {
 .wrapper{
   display: flex;
   flex-flow: row wrap;
-  max-width:900px;
   /*text-align:center;*/
 }
 
@@ -127,7 +127,7 @@ a:link {
     }
   .main{
       flex:3 0px;
-      align-content: center;
+      justify-content: center;
     }
 
     .aside-1{
@@ -200,5 +200,9 @@ a:link {
     .main{
       display:flex;
       flex-flow: row-wrap;
+    }
+
+    .wrapper{
+      max-width: 1200px;
     }
 }
