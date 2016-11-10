@@ -105,6 +105,32 @@ a:link {
   /*text-align:center;*/
 }
 
+.nav ul{
+  display:none;
+}
+
+@media screen and (min-width:600px){
+  .nav ul{
+    display: flex;
+  }
+
+  .nav ul li{
+    border-top: none;
+  }
+
+  .menu-trigger{
+    display:none;
+  }
+
+  title{
+    order: 1;
+  }
+
+  .nav{
+    order:2;
+  }
+}
+
 @media (min-width:600px){
   .nav{
     flex-flow:row;
@@ -174,7 +200,7 @@ a:link {
       background-color: #ff7682;
       flex-flow: column;
     }
-  .main{
+    .main{
       flex:3 0px;
       background-color: #f0e6e7;
       flex-flow: column;
